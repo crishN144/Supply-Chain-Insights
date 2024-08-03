@@ -213,30 +213,31 @@ This comprehensive analysis of the supply chain has revealed several key insight
 
 These findings provide valuable insights for supply chain managers and decision-makers, offering data-driven guidance for optimizing operations, reducing defects, and improving overall supply chain performance.
 
+
 ## How to Use
 
 To explore and utilize this project:
 
 1. **Clone the Repository**:
-   ```
-   git clone https://github.com/yourusername/supply-chain-insights.git
-   cd supply-chain-insights
+   ```shell
+   git clone https://github.com/crishN144/Supply-Chain-Insights.git
+   cd Supply-Chain-Insights
    ```
 
 2. **Set Up the Environment**:
    - It's recommended to use a virtual environment:
-     ```
+     ```shell
      python -m venv venv
      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
      ```
    - Install required dependencies:
-     ```
+     ```shell
      pip install -r requirements.txt
      ```
 
 3. **Run the Analysis**:
    - Open Jupyter Notebook:
-     ```
+     ```shell
      jupyter notebook
      ```
    - Navigate to and open `supply_chain_insights_analysis.ipynb`
@@ -246,7 +247,10 @@ To explore and utilize this project:
    - Interact with the Plotly visualizations to gain deeper insights
    - Modify parameters to perform custom analyses
 
-5. **Extend the Analysis**:
+5. **Dataset**:
+   - The dataset used in this analysis is located in `/Dataset/supply_chain_data.csv`.
+
+6. **Extend the Analysis**:
    - Add new data sources to broaden the scope of the analysis
    - Implement predictive models for forecasting supply chain metrics
 
